@@ -1,0 +1,7 @@
+interface:
+  display_name: "防御性表述治理"
+  short_description: "预先分流防御性内容，并兼容既有文本的治理处理"
+  default_prompt: "使用 $defensive-writing-governance 为当前写作任务建立正文与治理文件的分离。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,24 @@
+{
+  "name": "writing-governance",
+  "version": "0.1.0",
+  "description": "Separates defensive writing governance from reader-facing prose.",
+  "author": {
+    "name": "Sun-Lebs-For-DeepOM"
+  },
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "写作治理",
+    "shortDescription": "将防御性表述从正文分离并保存为作者治理参考。",
+    "longDescription": "为不同写作任务提供通用的防御性表述治理层：写作前建立正文与治理文件的分离边界，并可处理既有文本中的防御性表述。",
+    "developerName": "Sun-Lebs-For-DeepOM",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "为当前写作任务启用防御性表述预先治理。",
+      "处理这份草稿，并把防御性表述转存到治理文件。"
+    ]
+  }
+}
