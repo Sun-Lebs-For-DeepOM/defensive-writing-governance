@@ -1,6 +1,6 @@
-# Writing Governance
+# Defensive Writing Governance
 
-`writing-governance` is a lightweight Codex plugin for separating defensive writing from reader-facing prose.
+`defensive-writing-governance` is a lightweight Codex plugin for separating defensive writing from reader-facing prose.
 
 Its core skill, `defensive-writing-governance`, works alongside an existing writing task:
 
@@ -21,7 +21,7 @@ For an existing draft, the skill moves defensive content to the governance file 
 ## Plugin structure
 
 ```text
-writing-governance/
+defensive-writing-governance/
 ├── .codex-plugin/
 │   └── plugin.json
 └── skills/
